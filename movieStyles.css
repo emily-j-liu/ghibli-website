@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  font-family: 'Arial';
+}
+
+p {
+  font-family: 'Space Mono';
+  text-align: center;
+}
+
+.grid-3 {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  margin: auto;
+  max-width: 600px;
+}
+
+a {
+  font-family: 'Arial';
+  font-size: 12px;
+  text-align: center;
+}
+
+p a {
+  font-family: 'Space Mono';
+  font-size: 16px;
+}
+
+.desc {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
